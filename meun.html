@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منيو زعانف الروبيان</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      background: #331e27;
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: black;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    header img {
+      max-width: 180px;
+      height: auto;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin: 1rem 0;
+    }
+
+    nav a {
+      background-color: #c8102e;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #e53935;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      border-bottom: 1px solid #333;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #f44336;
+      font-size: 1.8rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th,
+    td {
+      padding: 0.5rem;
+      border-bottom: 1px solid #555;
+      text-align: right;
+    }
+
+    td.price {
+      font-weight: bold;
+      color: #ffeb3b;
+    }
+
+    .emoji {
+      font-size: 1.3rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="logo.png" alt="لوجو زعانف الروبيان">
+  </header>
+
+  <nav>
+    <a href="#appetizers">🥗 المقبلات</a>
+    <a href="#soup">🍲 الشوربة</a>
+    <a href="#shrimp">🍤 القشريات</a>
+    <a href="#fish">🐟 الأسماك</a>
+    <a href="#pasta">🍝 المكرونة</a>
+    <a href="#meals">🍱 الوجبات</a>
+    <a href="#family">🍛 الولائم</a>
+    <a href="#drinks">🍹 المشروبات</a>
+    <a href="#desserts">🍰 الحلا</a>
+  </nav>
+
+  <section id="appetizers">
+    <h2>🥗 المقبلات</h2>
+    <table>
+      <tr><td>سلطة طحينة</td><td class="price">5 ريال</td></tr>
+      <tr><td>سلطة طماطم متبلة</td><td class="price">5 ريال</td></tr>
+      <tr><td>سلطة خضراء</td><td class="price">5 ريال</td></tr>
+      <tr><td>سلطة جرجير</td><td class="price">5 ريال</td></tr>
+      <tr><td>سلطة زعانف</td><td class="price">5 ريال</td></tr>
+      <tr><td>سلطة بابا غنوج</td><td class="price">5 ريال</td></tr>
+    </table>
+  </section>
+
+  <section id="soup">
+    <h2>🍲 الشوربة</h2>
+    <table>
+      <tr><td>شوربة سي فود بالكريمة</td><td class="price">25 ريال</td></tr>
+      <tr><td>شوربة سي فود حمراء</td><td class="price">20 ريال</td></tr>
+      <tr><td>شوربة جمبري بالكريمة</td><td class="price">20 ريال</td></tr>
+      <tr><td>شوربة جمبري حمراء</td><td class="price">15 ريال</td></tr>
+      <tr><td>شوربة كابوريا بالكريمة</td><td class="price">20 ريال</td></tr>
+      <tr><td>شوربة كابوريا حمراء</td><td class="price">15 ريال</td></tr>
+      <tr><td>شوربة سمك بالكريمة</td><td class="price">20 ريال</td></tr>
+      <tr><td>شوربة سمك حمراء</td><td class="price">15 ريال</td></tr>
+    </table>
+  </section>
+
+  <section id="shrimp">
+    <h2>🍤 القشريات</h2>
+    <table>
+      <tr><td>جمبري وسط مشوي/مقلي</td><td class="price">100 ريال</td></tr>
+      <tr><td>جمبري جامبو مشوي/مقلي</td><td class="price">150 ريال</td></tr>
+      <tr><td>جمبري جامبو مقشر مشوي</td><td class="price">150 ريال</td></tr>
+      <tr><td>جمبري وسط مقشر مشوي</td><td class="price">130 ريال</td></tr>
+      <tr><td>جمبري فليمينيون</td><td class="price">160 ريال</td></tr>
+      <tr><td>جمبري مشكل مشوي</td><td class="price">180 ريال</td></tr>
+      <tr><td>جمبري مشوي بصوص الليمون</td><td class="price">170 ريال</td></tr>
+      <tr><td>جمبري كرسبي</td><td class="price">100 ريال</td></tr>
+    </table>
+  </section>
+
+  <section id="fish">
+    <h2>🐟 الأسماك</h2>
+    <table>
+      <tr><td>فيليه مشوي بصوص الليمون</td><td class="price">100 ريال</td></tr>
+      <tr><td>فيليه مشوي</td><td class="price">90 ريال</td></tr>
+      <tr><td>فيليه مقلي</td><td class="price">80 ريال</td></tr>
+      <tr><td>دنيس مشوي</td><td class="price">90 ريال</td></tr>
+      <tr><td>قاروص مشوي</td><td class="price">100 ريال</td></tr>
+      <tr><td>ناجل مشوي</td><td class="price">130 ريال</td></tr>
+      <tr><td>شعور مشوي</td><td class="price">110 ريال</td></tr>
+      <tr><td>هامور مشوي</td><td class="price">120 ريال</td></tr>
+    </table>
+  </section>
+
+  <section id="pasta">
+    <h2>🍝 المكرونة</h2>
+    <table>
+      <tr><td>مكرونة سي فود</td><td class="price">35 ريال</td></tr>
+      <tr><td>مكرونة جمبري</td><td class="price">30 ريال</td></tr>
+      <tr><td>مكرونة سمك</td><td class="price">25 ريال</td></tr>
+    </table>
+  </section>
+
+  <section id="meals">
+    <h2>🍱 الوجبات</h2>
+    <table>
+      <tr><td>وجبة فيليه</td><td class="price">45 ريال</td></tr>
+      <tr><td>وجبة جمبري</td><td class="price">50 ريال</td></tr>
+      <tr><td>وجبة ميكس جمبري + فيليه</td><td class="price">60 ريال</td></tr>
+      <tr><td>وجبة ميكس جمبري + كابوريا</td><td class="price">70 ريال</td></tr>
+      <tr><td>وجبة ميكس جمبري + سمك</td><td class="price">60 ريال</td></tr>
+      <tr><td>وجبة ميكس جمبري + كابوريا + سمك</td><td class="price">80 ريال</td></tr>
+    </table>
+  </section>
+
+  <section id="family">
+    <h2>🍛 الولائم</h2>
+    <table>
+      <tr><td>صينية ولائم جمبري وسط + فيليه</td><td class="price">300 ريال</td></tr>
+      <tr><td>صينية ولائم جمبري جامبو + فيليه</td><td class="price">600 ريال</td></tr>
+      <tr><td>صينية ولائم مشكل جمبري + سمك + كابوريا</td><td class="price">1500 ريال</td></tr>
+      <tr><td>صينية ولائم جمبري + فيليه + أرز + شوربة</td><td class="price">100 ريال</td></tr>
+    </table>
+  </section>
+
+  <section id="drinks">
+    <h2>🍹 المشروبات</h2>
+    <table>
+      <tr><td>مياه</td><td class="price">1 ريال</td></tr>
+      <tr><td>بيبسي</td><td class="price">3 ريال</td></tr>
+      <tr><td>سفن</td><td class="price">3 ريال</td></tr>
+      <tr><td>ميرندا</td><td class="price">3 ريال</td></tr>
+      <tr><td>عصير مانجو</td><td class="price">5 ريال</td></tr>
+      <tr><td>عصير ليمون</td><td class="price">5 ريال</td></tr>
+      <tr><td>عصير برتقال</td><td class="price">5 ريال</td></tr>
+    </table>
+  </section>
+
+  <section id="desserts">
+    <h2>🍰 الحلا</h2>
+    <table>
+      <tr><td>كريم كراميل</td><td class="price">5 ريال</td></tr>
+      <tr><td>أم علي</td><td class="price">10 ريال</td></tr>
+      <tr><td>كنافة بالمانجو</td><td class="price">15 ريال</td></tr>
+      <tr><td>كنافة بالنوتيلا</td><td class="price">15 ريال</td></tr>
+      <tr><td>كنافة عادية</td><td class="price">10 ريال</td></tr>
+    </table>
+  </section>
+</body>
+
+</html>
